@@ -1,5 +1,6 @@
 name: conditions
 on: [push] #trigger
+
 jobs: 
   hello:
     runs-on: ubuntu-latest # Linux Os. We can have windows or MAC
