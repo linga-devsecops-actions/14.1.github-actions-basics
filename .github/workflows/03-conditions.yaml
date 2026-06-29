@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest # Linux Os. We can have windows or MAC
     steps: # stages
       - name: pushing to feature branch
-        if: github.ref == 'refs/heads/feature-*'
+        if: github.ref == 'refs/heads/feature-10'
         run: echo "Welcome to feature branch - Github Actions"
       - name: pushing to main branch
         if: github.ref == 'refs/heads/main'
