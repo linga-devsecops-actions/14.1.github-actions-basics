@@ -6,7 +6,6 @@ concurrency:  # this workflow should be triggered for any branch only once.
 
 
 
-
 jobs:
   hello:
     runs-on: ubuntu-latest # Linux Os. We can have windows or MAC
