@@ -5,7 +5,6 @@ concurrency:  # this workflow should be triggered for any branch only once.
   cancel-in-progress: true #Existing will be cancelled and latest will run. 
 
 
-
 jobs:
   hello:
     runs-on: ubuntu-latest # Linux Os. We can have windows or MAC
