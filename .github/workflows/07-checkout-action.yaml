@@ -1,0 +1,11 @@
+name: checkout the code
+on: [push] #trigger
+jobs:
+  build: 
+    runs-on: ubuntu-latest # Linux Os. We can have windows or MAC
+    steps: # checkout will happen here
+      - name: checkout
+        uses: actions/checkout@v5
+
+      - name: display the files
+        run: ls -la
